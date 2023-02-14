@@ -1,0 +1,109 @@
+/* screen - image-processor */
+
+.image-processor {
+  align-items: center;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  min-width: 1310px;
+  padding: 108px 0px;
+  position: relative;
+}
+
+.image-processor .place {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-decoration: underline;
+  transition: all 0.2s ease;
+  width: fit-content;
+}
+
+.image-processor .place:hover {
+  transform: scale(1.1);
+}
+
+.image-processor .about {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  transition: all 0.2s ease;
+  width: fit-content;
+}
+
+.image-processor .about:hover {
+  transform: scale(1.1);
+}
+
+.image-processor .lh {
+  line-height: normal;
+}
+
+.image-processor .image-processor-allo {
+  letter-spacing: 0;
+  line-height: .5;
+  margin-top: -1.00px;
+  position: relative;
+  width: 576px;
+}
+
+.image-processor .x1-and-2 {
+  align-items: center;
+  border-radius: 12px;
+  display: flex;
+  gap: 59px;
+  overflow: hidden;
+  position: relative;
+  width: 1223px;
+}
+
+.image-processor .dia-1 {
+  height: 1276px;
+  min-width: 1223px;
+  object-fit: cover;
+  position: relative;
+}
+
+.image-processor .x3-and-4 {
+  align-items: center;
+  border-radius: 12px;
+  display: flex;
+  gap: 58px;
+  overflow: hidden;
+  position: relative;
+  width: 1223px;
+}
+
+.image-processor .screen-shot-2023-02-07-at-708-1 {
+  height: 692px;
+  min-width: 1223px;
+  object-fit: cover;
+  position: relative;
+}
+
+.image-processor .contact {
+  align-items: center;
+  background-color: var(--black);
+  border-radius: 46.2px;
+  cursor: pointer;
+  display: flex;
+  gap: 7.69px;
+  height: 85px;
+  justify-content: center;
+  padding: 12.81px 28.18px;
+  position: relative;
+  width: 177px;
+}
+
+.image-processor .contact-me {
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
