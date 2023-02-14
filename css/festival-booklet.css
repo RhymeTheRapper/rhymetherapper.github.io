@@ -1,0 +1,120 @@
+/* screen - festival-booklet */
+
+.festival-booklet {
+  align-items: center;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  min-width: 1310px;
+  padding: 108px 0px;
+  position: relative;
+}
+
+.festival-booklet .place {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-decoration: underline;
+  transition: all 0.2s ease;
+  width: fit-content;
+}
+
+.festival-booklet .place:hover {
+  transform: scale(1.1);
+}
+
+.festival-booklet .about {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  transition: all 0.2s ease;
+  width: fit-content;
+}
+
+.festival-booklet .about:hover {
+  transform: scale(1.1);
+}
+
+.festival-booklet .film-booklet-new-yor {
+  letter-spacing: 0;
+  line-height: .5;
+  margin-top: -1.00px;
+  position: relative;
+  width: 576px;
+}
+
+.festival-booklet .frame-9-1 {
+  align-items: flex-start;
+  display: flex;
+  gap: 10px;
+  margin-right: -2.00px;
+  position: relative;
+  width: fit-content;
+}
+
+.festival-booklet .screen-shot-2023-02-11-at-613-1 {
+  height: 579px;
+  min-width: 580px;
+  object-fit: cover;
+  position: relative;
+}
+
+.festival-booklet .x1-and-2 {
+  align-items: center;
+  border: 1px solid;
+  border-color: var(--black);
+  border-radius: 12px;
+  display: flex;
+  gap: 59px;
+  overflow: hidden;
+  position: relative;
+  width: 1223px;
+}
+
+.festival-booklet .festival-about-and-layout-12-1 {
+  height: 974px;
+  min-width: 1223px;
+  object-fit: cover;
+  position: relative;
+}
+
+.festival-booklet .festival-about-and-layout-13-1 {
+  height: 963px;
+  min-width: 1223px;
+  object-fit: cover;
+  position: relative;
+}
+
+.festival-booklet .festival-about-and-layout-16-1 {
+  height: 964px;
+  min-width: 1223px;
+  object-fit: cover;
+  position: relative;
+}
+
+.festival-booklet .contact {
+  align-items: center;
+  background-color: var(--black);
+  border-radius: 46.2px;
+  cursor: pointer;
+  display: flex;
+  gap: 7.69px;
+  height: 85px;
+  justify-content: center;
+  padding: 12.81px 28.18px;
+  position: relative;
+  width: 177px;
+}
+
+.festival-booklet .contact-me {
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
