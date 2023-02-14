@@ -1,0 +1,123 @@
+/* screen - marble-solitaire */
+
+.marble-solitaire {
+  align-items: center;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  min-width: 1310px;
+  padding: 108px 0px;
+  position: relative;
+}
+
+.marble-solitaire .place {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  text-decoration: underline;
+  transition: all 0.2s ease;
+  width: fit-content;
+}
+
+.marble-solitaire .place:hover {
+  transform: scale(1.1);
+}
+
+.marble-solitaire .about {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  transition: all 0.2s ease;
+  width: fit-content;
+}
+
+.marble-solitaire .about:hover {
+  transform: scale(1.1);
+}
+
+.marble-solitaire .lh {
+  line-height: normal;
+}
+
+.marble-solitaire .marble-solitaire-all {
+  letter-spacing: 0;
+  line-height: .5;
+  margin-top: -1.00px;
+  position: relative;
+  width: 576px;
+}
+
+.marble-solitaire .x1-and-2 {
+  align-items: center;
+  border-radius: 12px;
+  display: flex;
+  gap: 59px;
+  overflow: hidden;
+  position: relative;
+  width: 1223px;
+}
+
+.marble-solitaire .marblediagram-1 {
+  height: 1141px;
+  min-width: 1223px;
+  object-fit: cover;
+  position: relative;
+}
+
+.marble-solitaire .x3-and-4 {
+  align-items: center;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  position: relative;
+  width: 1223px;
+}
+
+.marble-solitaire .screen-shot-2023-02-07-at-820-1 {
+  height: 594.68px;
+  min-width: 288px;
+  object-fit: cover;
+  position: relative;
+}
+
+.marble-solitaire .screen-shot-2023-02-07-at-822-1 {
+  height: 597.7px;
+  min-width: 288px;
+  object-fit: cover;
+  position: relative;
+}
+
+.marble-solitaire .screen-shot-2023-02-07-at-826-1 {
+  height: 598px;
+  min-width: 288px;
+  object-fit: cover;
+  position: relative;
+}
+
+.marble-solitaire .contact {
+  align-items: center;
+  background-color: var(--black);
+  border-radius: 46.2px;
+  cursor: pointer;
+  display: flex;
+  gap: 7.69px;
+  height: 85px;
+  justify-content: center;
+  padding: 12.81px 28.18px;
+  position: relative;
+  width: 177px;
+}
+
+.marble-solitaire .contact-me {
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}

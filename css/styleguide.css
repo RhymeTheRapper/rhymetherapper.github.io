@@ -1,0 +1,91 @@
+:root { 
+  --black: #000000;
+  --gondola: #000000;
+  --mist-gray: #c4c4c4;
+  --white: #ffffff;
+ 
+  --font-size-m: 48px;
+  --font-size-s: 40.5px;
+  --font-size-xs: 28px;
+  --font-size-xxs: 24px;
+  --font-size-xxxs: 20px;
+  --font-size-xxxxs: 16px;
+  --font-size-xxxxxs: 13px;
+ 
+  --font-family-cabinet_grotesk-bold: "Cabinet Grotesk-Bold", Helvetica;
+  --font-family-cabinet_grotesk-medium: "Cabinet Grotesk-Medium", Helvetica;
+  --font-family-cabinet_grotesk-regular: "Cabinet Grotesk-Regular", Helvetica;
+  --font-family-cabinet_grotesk-extrabold: "Cabinet Grotesk-Extrabold", Helvetica;
+  --font-family-undefined-regular: "undefined-Regular", Helvetica;
+}
+.cabinetgrotesk-medium-black-28px {
+  color: var(--black);
+  font-family: var(--font-family-cabinet_grotesk-medium);
+  font-size: var(--font-size-xs);
+}
+
+.cabinetgrotesk-medium-black-48px {
+  color: var(--black);
+  font-family: var(--font-family-cabinet_grotesk-medium);
+  font-size: var(--font-size-s);
+}
+
+.cabinetgrotesk-medium-black-13px {
+  color: var(--black);
+  font-family: var(--font-family-cabinet_grotesk-medium);
+  font-size: var(--font-size-xxxxxs);
+}
+
+.cabinetgrotesk-regular-black-13px {
+  color: var(--black);
+  font-family: var(--font-family-cabinet_grotesk-regular);
+  font-size: var(--font-size-xxxxxs);
+}
+
+.cabinetgrotesk-bold-black-20px {
+  color: var(--black);
+  font-family: var(--font-family-cabinet_grotesk-bold);
+  font-size: var(--font-size-xxxs);
+}
+
+.cabinetgrotesk-bold-black-16px {
+  color: var(--black);
+  font-family: var(--font-family-cabinet_grotesk-bold);
+  font-size: var(--font-size-xxxxs);
+}
+
+.cabinetgrotesk-bold-black-48px {
+  color: var(--black);
+  font-family: var(--font-family-cabinet_grotesk-bold);
+  font-size: var(--font-size-m);
+}
+
+.cabinetgrotesk-extrabold-black-20px {
+  color: var(--black);
+  font-family: var(--font-family-cabinet_grotesk-extrabold);
+  font-size: var(--font-size-xxxs);
+}
+
+.cabinetgrotesk-medium-mist-gray-28px {
+  color: var(--mist-gray);
+  font-family: var(--font-family-cabinet_grotesk-medium);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.cabinetgrotesk-medium-white-24px {
+  color: var(--white);
+  font-family: var(--font-family-cabinet_grotesk-medium);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.undefined-regular-normal-black-48px {
+  color: var(--black);
+  font-family: var(--font-family-undefined-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
