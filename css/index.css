@@ -121,6 +121,7 @@
 
 .index .contact:hover {
   transform: scale(1.1);
+  transition: 0.5s ease;
 }
 
 .index .resume {
@@ -134,6 +135,7 @@
 
 .index .resume:hover {
   transform: scale(1.1);
+  transition: 0.5s ease;
 }
 
 .index .resume-me-1 {
@@ -146,6 +148,8 @@
   margin-top: -0.77px;
   position: relative;
   width: fit-content;
+  padding: 12.81px 28.18px;
+  margin: -12.81px -28.18px;
 }
 
 .index .contact-me-1 {
@@ -193,6 +197,7 @@ border: none;
 
 .index .linkedin:hover {
   transform: scale(1.1);
+  transition: 0.5s ease;
 }
 
 .index .icon-linkedin {
@@ -216,6 +221,7 @@ border: none;
 
 .index .instagram:hover {
   transform: scale(1.1);
+  transition: 0.5s ease;
 }
 
 .index .image-2 {
@@ -266,16 +272,19 @@ border: none;
 
 .index .project:hover {
   transform: scale(1.1);
+  transition: 0.7s ease;
 }
 
 .index .project-2:hover {
   transform: scale(1.1);
+  transition: 0.7s ease;
 }
 
 
 
 .index .project-3-1:hover {
   transform: scale(1.1);
+  transition: 0.7s ease;
 }
 
 .index .project-1 {
