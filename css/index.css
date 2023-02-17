@@ -117,6 +117,7 @@
   border-radius: 46.2px;
   gap: 7.69px;
   padding: 12.81px 28.18px;
+  transition: all 0.7s ease;
 }
 
 .index .contact:hover {
@@ -170,6 +171,7 @@
   gap: 22.16px;
   position: relative;
   width: fit-content;
+  transition: all 0.7s ease;
 }
 
 .index .social-media-item {
@@ -268,6 +270,7 @@ border: none;
   min-width: 581px;
   overflow: hidden;
   position: relative;
+  transition: all 0.7s ease;
 }
 
 .index .project:hover {
